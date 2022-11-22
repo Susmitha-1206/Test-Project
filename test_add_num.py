@@ -4,7 +4,8 @@ import os,sys
 from functions import add_num
 
 
-testdata = [([1,2] ,[3])]
+testdata = [([1,2] ,[3]),
+           ([3,2] ,[5])]
 @pytest.mark.parametrize("sample_input , expected_output" , testdata)
 
 def test_add_num(sample_input , expected_output):
