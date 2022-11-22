@@ -1,5 +1,5 @@
 def add_num (a ,b):
-  result = a+b+10
+  result = a+b
   print("Result - ",result)
   return result
 
