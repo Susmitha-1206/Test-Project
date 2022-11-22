@@ -5,7 +5,7 @@ from functions import add_num
 
 
 testdata = [([1,2] ,[3])]
-@pytest.mark.parameterize("sample_input , expected_output" , testdata)
+@pytest.mark.parametrize("sample_input , expected_output" , testdata)
 
 def test_add_num(sample_input , expected_output):
   print("Sample Input - " , sample_input)
